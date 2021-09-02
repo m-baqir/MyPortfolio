@@ -76,6 +76,8 @@ background: linear-gradient(45deg, rgba(46,44,77,1) 0%, rgba(31,27,78,1) 100%);
 header{
     padding-bottom: 2.5em;
     border-bottom: 2px solid #34ebe8;
+    background: inherit;
+    z-index: 99;
 }
 #aboutme{
     padding: 7em 0;
@@ -132,13 +134,17 @@ header{
 }
 
 .sticky{
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
+}
+.sticky + main{
+    padding-top: 90px;
 }
 #projects{
     display: flex;
     padding: 2em 0;
+    max-height: 496px;
 }
 #projects a{
     color: #98a3a2;
@@ -160,7 +166,7 @@ header{
     display: block;
     background-color: inherit;
     color: #34ebe8;
-    padding: 22px 16px;
+    padding: 0.65em 1em;
     width: 100%;
     border: none;
     outline: none;
