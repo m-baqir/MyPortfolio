@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <script type="text/javascript" src="#"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
   <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width">
   <title>My basic HTML page</title>
 </head>
@@ -36,6 +37,49 @@
           <br> Check out my projects section below and lets get in touch.
         </p>
         <a id="aboutmelink"></a>
+      </div>
+    </div>
+    <h2 class="projtitle">Current & Past Projects</h2>
+    <div id="projects">
+      <div class="tab">
+        <button class="tablink" onmouseover="openProject(event, 'subsort')">SubscriptionSorter</button>
+        <button class="tablink" onmouseover="openProject(event, 'gbhs')">GBHS_HospitalProject</button>
+        <button class="tablink" onmouseover="openProject(event, 'apiproj')">ApiProject</button>
+        <button class="tablink" onmouseover="openProject(event, 'knights')">Knights-Club</button>
+        <button class="tablink" onmouseover="openProject(event, 'ticket')">TicketMessagingApp</button>
+        <button class="tablink" onmouseover="openProject(event, 'usedcar')">UsedCarApp</button>
+      </div>
+      <div id="contwrapper">
+        <div id="subsort" class="tabcontent">
+          <h4>Subscription Sorter</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
+        <div id="gbhs" class="tabcontent">
+          <h4>GBHS Hospital Project</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
+        <div id="apiproj" class="tabcontent">
+          <h4>API Project</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
+        <div id="knights" class="tabcontent">
+          <h4>Knights-Club: A Social Media Platform</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
+        <div id="ticket" class="tabcontent">
+          <h4>Tech-Support Ticket Messaging App</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
+        <div id="usedcar" class="tabcontent">
+          <h4>Used Car Application</h4>
+          <a href="https://github.com/m-baqir/SubscriptionSorter" class="fa fa-github"></a>
+          <p>This is a test</p>
+        </div>
       </div>
     </div>
     <p style="text-align: center; color: white; font-size: 16pt;">This website is a work in progress. Thank you for

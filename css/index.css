@@ -99,7 +99,7 @@ header{
 @keyframes showpic {
     0% {
         left: -170px;
-        transform: rotate(355deg);
+        transform: rotate(340deg) scale(0.1);
     } 
     100% {
         transform: rotate(358deg);
@@ -129,4 +129,56 @@ header{
 @keyframes shine {
     0% {background-position: 0;}
     60% {background-position: 500px;}
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#projects{
+    display: flex;
+    padding: 2em 0;
+}
+#projects a{
+    color: #98a3a2;
+    font-size: 24pt;
+}
+#projects a:hover{
+    color: #34ebe8;
+}
+.tab{
+    display: flex;
+    flex-flow: column;
+    flex: 0.25;
+}
+
+#contwrapper{
+    flex: 1;
+}
+.tablink{
+    display: block;
+    background-color: inherit;
+    color: #34ebe8;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: right;
+    cursor: pointer;
+    font-size: 20pt;
+}
+.tablink:hover{
+    background-color: #4d4d4d;
+}
+.tabcontent{
+    display: none;
+    color: #ebebeb;
+    font-size: 16pt;
+}
+.projtitle{
+    color: #34ebe8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    padding-top: 1em;
 }
