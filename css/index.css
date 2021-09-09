@@ -188,3 +188,50 @@ header{
     font-size: 20pt;
     padding-top: 1em;
 }
+
+/*Media queries below*/
+@media only screen and (max-width: 320px){
+    .headerlist{
+        font-size: 10pt;
+        border: 1px solid;
+        padding: none;
+        margin: none;
+    }
+    #imgwrapper,#sadavatar,#avatar{
+        width: 100%;
+        flex: 0.5;
+        height: 50%;
+    }
+    header{
+        padding-bottom: 1em;
+    }
+    .headerlist:hover{
+        color:#98a3a2;
+        border: 1px solid rgb(46,44,77);
+    }
+    @keyframes dimmer {
+        0% {
+            border: 1px solid #34ebe8;
+        }
+        100% {
+            border: 1px solid rgb(46,44,77);
+        }
+    }
+    @keyframes sadcolor {
+        0% {
+            box-shadow: 0 8px 6px 1px #34ebe8;
+        }
+        100% {
+            box-shadow: 0 8px 6px 1px #98a3a2;
+            background: #98a3a2 ;
+        }
+    }
+    @keyframes bounce {
+        0% {transform: translateY(0);}
+        50% {
+            transform: translateY(10px);
+            box-shadow: 0 5px 10px 0 #34ebe8;
+        }
+        100% {transform: translateY(0);}
+    }
+}
