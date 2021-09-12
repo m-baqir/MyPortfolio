@@ -180,7 +180,9 @@ header{
 .tabcontent{
     display: none;
     color: #ebebeb;
-    font-size: 16pt;
+    font-size: 18pt;
+    flex-flow: column wrap;
+    row-gap: 1em;
 }
 .projtitle{
     color: #34ebe8;
@@ -190,7 +192,7 @@ header{
 }
 
 /*Media queries below*/
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 560px){
     .headerlist{
         font-size: 10pt;
         border: 1px solid;
@@ -199,7 +201,7 @@ header{
     }
     #imgwrapper,#sadavatar,#avatar{
         width: 100%;
-        flex: 0.5;
+        flex: 0.3;
         height: 50%;
     }
     header{
@@ -233,5 +235,23 @@ header{
             box-shadow: 0 5px 10px 0 #34ebe8;
         }
         100% {transform: translateY(0);}
+    }
+    #aboutme{
+        padding: 1em;
+        flex-flow: column wrap;
+    }
+    #myimg{
+        animation: smallimg 2s forwards;
+        width: 40%;
+        padding-bottom: 1em;
+    }
+    @keyframes smallimg {
+        0% {
+            transform: scale(0.1) rotate(90deg);
+            filter: grayscale(100%);
+        }
+        100% {
+            box-shadow: 8px 5px 11px 3px #34EBE8;
+        }
     }
 }

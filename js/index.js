@@ -24,6 +24,6 @@ function openProject(evt, project) {
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    document.getElementById(project).style.display = "block";
+    document.getElementById(project).style.display = "flex";
 
 }
