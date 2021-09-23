@@ -184,6 +184,9 @@ header{
     flex-flow: column wrap;
     row-gap: 1em;
 }
+#subsort{
+    display: flex;
+}
 .projtitle{
     color: #34ebe8;
     font-family: 'Montserrat', sans-serif;
