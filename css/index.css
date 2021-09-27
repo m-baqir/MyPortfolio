@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -113,7 +113,7 @@ header{
     flex: 35%;
     color: #ebebeb;
     font-size: 18pt;
-    font-family: 'Besley', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 #myname{
     background: linear-gradient(to right, #4d4d4d 0, #34ebe8 30%, #4d4d4d 20%);
@@ -183,6 +183,8 @@ header{
     font-size: 18pt;
     flex-flow: column wrap;
     row-gap: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
 }
 #subsort{
     display: flex;
