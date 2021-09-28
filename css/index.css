@@ -77,7 +77,7 @@ header{
     padding-bottom: 2.5em;
     border-bottom: 2px solid #34ebe8;
     background: inherit;
-    z-index: 99;
+    z-index: 1;
 }
 #aboutme{
     padding: 7em 0;
@@ -186,14 +186,25 @@ header{
     font-family: 'Open Sans', sans-serif;
     padding-left: 1em;
 }
+.tabcontent a{
+    padding-left: 0.1em;
+}
 #subsort{
     display: flex;
 }
-.projtitle{
+#projtitle{
     color: #34ebe8;
     font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
     padding-top: 1em;
+}
+.imagecontainer{
+    display: flex;
+    flex-flow: row;
+    column-gap: 5px;
+}
+.pagepreview{
+    width: 70%;
 }
 
 /*Media queries below*/

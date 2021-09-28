@@ -14,8 +14,7 @@ window.onload = function () {
         }
     }
 
-
-};
+}
 
 /*code for displaying projects tabs */
 function openProject(evt, project) {
@@ -27,3 +26,4 @@ function openProject(evt, project) {
     document.getElementById(project).style.display = "flex";
 
 }
+

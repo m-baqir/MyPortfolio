@@ -14,7 +14,7 @@
   <header id="myheader">
     <ul id="conthead">
       <li><a href="#aboutmelink" class="headerlist">About</a></li>
-      <li><a href="#" class="headerlist">Projects</a></li>
+      <li><a href="#projlink" class="headerlist">Projects</a></li>
       <li id="imgwrapper">
         <img src="./images/avataaars.svg" alt="my avatar" width="100" height="100" id="avatar" />
         <img src="./images/avataaars-sad.svg" alt="sad avatar" width="100" height="100" id="sadavatar" />
@@ -23,6 +23,7 @@
       <li><a href="#" class="headerlist">Skills</a></li>
     </ul>
   </header>
+  <a id="aboutmelink"></a>
   <main>
     <div id="aboutme">
       <div class="column">
@@ -34,10 +35,10 @@
           technology and the internet. I enjoy building fun, creative and accessible websites that push the envelope.
           <br> Check out my projects section below and lets get in touch.
         </p>
-        <a id="aboutmelink"></a>
       </div>
     </div>
-    <h2 class="projtitle">Current & Past Projects</h2>
+    <a id="projlink"></a>
+    <h2 id="projtitle">Current & Past Projects</h2>
     <div id="projects">
       <div class="tab">
         <button class="tablink" onmouseover="openProject(event, 'subsort')">SubscriptionSorter</button>
@@ -61,6 +62,9 @@
             A simple vanilla JS based app that allows a user to sort their subscriptions based on the next bill due
             date. This app utilizes built-in JS time functions.
           </p>
+          <div class="imagecontainer">
+            <img class="pagepreview" src="./images/subsort1.jpg" alt="webpage preview" />
+          </div>
         </div>
         <div id="shaw" class="tabcontent">
           <h4>
@@ -73,6 +77,11 @@
           <p>
             A restaurant website we made as a group in first semester.
           </p>
+          <div class="imagecontainer">
+            <img class="pagepreview" src="./images/shaw1.jpg" alt="webpage preview" />
+            <img class="pagepreview" src="./images/shaw2.jpg" alt="webpage preview" />
+            <img class="pagepreview" src="./images/shaw3.jpg" alt="webpage preview" />
+          </div>
         </div>
         <div id="apiproj" class="tabcontent">
           <h4>
@@ -87,6 +96,10 @@
             First time doing a project with API calls. Used two different APIs to list top 10 trending movies and their
             latest reviews.
           </p>
+          <div class="imagecontainer">
+            <img class="pagepreview" src="./images/api1.jpg" alt="webpage preview" />
+            <img class="pagepreview" src="./images/api2.jpg" alt="webpage preview" />
+          </div>
         </div>
         <div id="knights" class="tabcontent">
           <h4>
