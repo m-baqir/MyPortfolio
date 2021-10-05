@@ -19,8 +19,8 @@
         <img src="./images/avataaars.svg" alt="my avatar" width="100" height="100" id="avatar" />
         <img src="./images/avataaars-sad.svg" alt="sad avatar" width="100" height="100" id="sadavatar" />
       </li>
-      <li><a href="#" class="headerlist">Contact</a></li>
-      <li><a href="#" class="headerlist">Skills</a></li>
+      <li><a href="#contact" class="headerlist">Contact</a></li>
+      <li><a href="#skillslink" class="headerlist">Skills</a></li>
     </ul>
   </header>
   <a id="aboutmelink"></a>
@@ -37,7 +37,7 @@
         </p>
       </div>
     </div>
-    <a id="projlink"></a>
+    <a id="projlink" href="#"></a>
     <h2 id="projtitle">Current & Past Projects</h2>
     <div id="projects">
       <div class="tab">
@@ -63,7 +63,8 @@
             date. This app utilizes built-in JS time functions.
           </p>
           <div class="imagecontainer">
-            <img class="pagepreview" src="./images/subsort1.jpg" alt="webpage preview" />
+            <a href="./images/subsort1.jpg"><img class="pagepreview" src="./images/subsort1.jpg"
+                alt="webpage preview" /></a>
           </div>
         </div>
         <div id="shaw" class="tabcontent">
@@ -78,9 +79,9 @@
             A restaurant website we made as a group in first semester.
           </p>
           <div class="imagecontainer">
-            <img class="pagepreview" src="./images/shaw1.jpg" alt="webpage preview" />
-            <img class="pagepreview" src="./images/shaw2.jpg" alt="webpage preview" />
-            <img class="pagepreview" src="./images/shaw3.jpg" alt="webpage preview" />
+            <a href="./images/shaw1.jpg"><img class="shawpreview" src="./images/shaw1.jpg" alt="webpage preview" /></a>
+            <a href="./images/shaw2.jpg"><img class="shawpreview" src="./images/shaw2.jpg" alt="webpage preview" /></a>
+            <a href="./images/shaw3.jpg"><img class="shawpreview" src="./images/shaw3.jpg" alt="webpage preview" /></a>
           </div>
         </div>
         <div id="apiproj" class="tabcontent">
@@ -97,8 +98,8 @@
             latest reviews.
           </p>
           <div class="imagecontainer">
-            <img class="pagepreview" src="./images/api1.jpg" alt="webpage preview" />
-            <img class="pagepreview" src="./images/api2.jpg" alt="webpage preview" />
+            <a href="./images/api1.jpg"><img class="pagepreview" src="./images/api1.jpg" alt="webpage preview" /></a>
+            <a href="./images/api2.jpg"><img class="pagepreview" src="./images/api2.jpg" alt="webpage preview" /></a>
           </div>
         </div>
         <div id="knights" class="tabcontent">
@@ -115,7 +116,8 @@
             paypal/subscription option and rss feeds.
           </p>
           <div class="imagecontainer">
-            <img class="pagepreview" src="./images/knight1.jpg" alt="webpage preview" />
+            <a href="./images/knight1.jpg"><img class="pagepreview" src="./images/knight1.jpg"
+                alt="webpage preview" /></a>
           </div>
         </div>
         <div id="ticket" class="tabcontent">
@@ -131,6 +133,14 @@
             A tech-support ticket messaging application with user login/logout functionality, separate admin interface,
             private chats and list of current tickets.
           </p>
+          <div class="imagecontainer">
+            <a href="./images/ticket1.jpg"><img class="pagepreview" src="./images/ticket1.jpg"
+                alt="webpage preview" /></a>
+            <a href="./images/ticket2.jpg"><img class="pagepreview" src="./images/ticket2.jpg"
+                alt="webpage preview" /></a>
+            <a href="./images/ticket3.jpg"><img class="pagepreview" src="./images/ticket3.jpg"
+                alt="webpage preview" /></a>
+          </div>
         </div>
         <div id="usedcar" class="tabcontent">
           <h4>
@@ -144,14 +154,54 @@
             A used car sale application done in the 2nd semester that allows users to create and post ads for their
             vehicle to be put on sale. Includes image upload functionality.
           </p>
+          <div class="imagecontainer">
+            <a href="./images/usedcar1.jpg"><img class="pagepreview" src="./images/usedcar1.jpg"
+                alt="webpage preview" /></a>
+            <a href="./images/usedcar2.jpg"><img class="pagepreview" src="./images/usedcar2.jpg"
+                alt="webpage preview" /></a>
+          </div>
         </div>
       </div>
+      <a id="skillslink" href="#"></a>
     </div>
-    <p style="text-align: center; color: white; font-size: 16pt;">This website is a work in progress. Thank you for
-      visiting</p>
+    <div class="skillcontainer">
+      <h2 id="projtitle">SKILLS</h2>
+      <ul class="skills">
+        <li class="hoverblue">PHP</li>
+        <li class="hoverblue">C# ASP.NET</li>
+        <li class="hoverblue">HTML</li>
+        <li class="hoverblue">CSS</li>
+        <li class="hoverblue">JS</li>
+        <li class="hoverblue">Python</li>
+        <li class="hoverblue">Django</li>
+        <li class="hoverblue">Scratch</li>
+      </ul>
+    </div>
+    <a href="#" id="contact"></a>
+    <h2 id="projtitle">CONTACT</h2>
+    <div class="socialicons">
+      <a class="fa fa-whatsapp" href="https://wa.me/14166898936"></a>
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/mohammad-baqir/"></a>
+      <a class="fa fa-github" href="https://github.com/m-baqir"></a>
+    </div>
+    <div class="contactcontainer">
+      <span class="hoverblue">msbaqir@gmail.com</span>
+      <span class="or">OR</span>
+      <!--*continue work here-->
+      <form action="https://formspree.io/f/xnqlrbzq" method="post">
+        <fieldset>
+          <legend>Send a message</legend>
+          <label for="name">Name</label>
+          <input type="text" name="name" required>
+          <label for="message">Message</label>
+          <input type="textarea" placeholder="Your Message" name="message" required>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
   </main>
   <footer>
-
+    <p>©Mohammad Baqir, 2021. Thank you for visiting.</p>
   </footer>
 </body>
 
