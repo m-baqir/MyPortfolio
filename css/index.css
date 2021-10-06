@@ -306,6 +306,10 @@ input[type=submit]{
     background: #34ebe8;
     cursor: pointer;
 }
+::placeholder{
+    color: white;
+    opacity: 1;
+}
 footer{
     font-family: 'Open Sans', sans-serif;
     color: #ebebeb;
